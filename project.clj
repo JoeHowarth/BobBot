@@ -12,6 +12,7 @@
                 ;  [org.clojure/tools.logging "0.3.1"]
                 ;  [org.slf4j/slf4j-log4j12 "1.7.12"]
                 ;  [log4j/log4j "1.2.17"]]
+  :min-lein-version "2.0.0"
   :target-path "target/%s"
   :main playground.markov
   :profiles {:uberjar {:aot :all}
